@@ -1,0 +1,56 @@
+### Create a workout.
+### Status code 201.
+POST http://localhost:3000/workouts HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Squat",
+    "reps": 10,
+    "weight": 30,
+    "unit": "lbs",
+    "date": "01-18-22"
+}
+
+### Create another workout.
+### Status code 201.
+POST http://localhost:3000/workouts HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Deadlift",
+    "reps": 10,
+    "weight": 30,
+    "unit": "lbs",
+    "date": "02-19-21"
+}
+
+### Retrieve should return the 2 workout just created.
+### Status code 200.
+GET http://localhost:3000/workouts HTTP/1.1
+
+### Edit Squat.
+### Update the ID.
+### Status code 200.
+PUT http://localhost:3000/workouts/622d3ff69c528a3a847c2afe HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Squat",
+    "reps": 30,
+    "weight": 30,
+    "unit": "lbs",
+    "date": "02-02-20"
+}
+
+### Verify that reps value for Squat is now 30 instead of 10.
+### Status code 200.
+GET http://localhost:3000/workouts HTTP/1.1
+
+### Delete Squat.
+### Update the ID.
+### Status code 204.
+DELETE http://localhost:3000/workouts/622d3ff69c528a3a847c2afe HTTP/1.1
+
+### Verify that Squat has been deleted.
+### Status code 200.
+GET http://localhost:3000/workouts HTTP/1.1
