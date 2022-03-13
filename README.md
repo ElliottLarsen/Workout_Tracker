@@ -10,7 +10,7 @@ This is a full-stack web application that tracks workout routines entered by the
 
 Back-end Walkthrough GIF
 
-<image src = "http://g.recordit.co/V4A2VinbOE.gif" width = 250><br>
+<image src = "http://g.recordit.co/V4A2VinbOE.gif" width = 750><br>
 
 <br>
 <h3 align= "right"> Elliott Larsen </h3>
