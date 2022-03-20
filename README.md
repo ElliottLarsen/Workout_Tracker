@@ -17,8 +17,6 @@ Various React components are used to generate the table and global navigation fe
 
 <image src = "http://g.recordit.co/Z5vidkyTFv.gif" width = 900><br>
 
-<br>  
-
 ## Back-End
 ---
 ### Back-end Walkthrough GIF
