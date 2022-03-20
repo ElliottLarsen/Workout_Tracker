@@ -4,6 +4,11 @@ This is a full-stack web application that tracks workout routines entered by the
 
 ## Front-End
 ---
+Front-end Walkthrough GIF (With CSS)
+
+<image src = "http://g.recordit.co/Z5vidkyTFv.gif" width = 900><br>
+
+---
 Front-end Walkthrough GIF (No CSS)
 
 <image src = "http://g.recordit.co/v9JSjdbCCP.gif" width = 900><br>

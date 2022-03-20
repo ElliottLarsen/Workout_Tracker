@@ -1,0 +1,92 @@
+body {
+    font-family: monospace;
+    background-color: #292c33;
+    color: #e9e9ea;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+  
+.App-logo {
+    font-size: 4rem;
+    pointer-events: none;
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+    }
+}
+  
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
+
+header {
+   text-align: center;
+   color: #e9e9ea;
+ }
+  
+nav {
+    
+    color: #7fd8f7;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+  
+nav a:first-child {    
+    color: #7fd8f7;
+    padding: 2rem;
+}
+  
+nav a:nth-child(2) {
+    color: #7fd8f7;
+    padding: 2rem;
+    padding-left: 0;
+}
+  
+nav a:visited {
+    color: #7fd8f7;
+}
+  
+main {
+    text-align: center;
+}
+  
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+  
+tr th {
+    border-style: solid;
+    border-color: #e9e9ea;
+    padding: 0.3rem;
+    color: #e9e9ea;
+}
+  
+tr td {
+    border-style: solid;
+    border-color: #e9e9ea;
+    padding: 0.3rem;
+    color: #e9e9ea;
+}
+  
+footer {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: auto;
+    background-color: #e9e9ea;
+}
+  
+ 

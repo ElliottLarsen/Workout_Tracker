@@ -6,6 +6,7 @@ import CreateWorkoutPage from './pages/CreateWorkoutPage';
 import EditWorkoutPage from './pages/EditWorkoutPage';
 import { useState } from 'react';
 import Navigation from './components/Navigation.js'
+import { CgGym } from "react-icons/cg";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Router>
         <header className="App-header">
+        <CgGym className = "App-logo" />
           <h1>Elliott's Workout Tracker</h1>
           <p>This is a workout tracker app.</p>
         </header>

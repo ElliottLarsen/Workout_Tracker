@@ -24,28 +24,33 @@ export const EditWorkoutPage = ({workoutToEdit}) => {
     return (
         <div>
             <h2>Edit Workout and Save</h2>
-            <p>
-            <input
+            <p> 
+            Name: <input
                 type="text"
                 placeholder="Enter name here"
                 value={name}
                 onChange={e => setName(e.target.value)} />
-            <input
+            <br></br>
+            Reps: <input
                 type="number"
                 placeholder="Enter reps here"
                 value={reps}
                 onChange={e => setReps(e.target.value)} />
-            <input
+            <br></br>
+            Weight: <input
                 type="number"
                 placeholder="Enter weight here"
                 value={weight}
                 onChange={e => setWeight(e.target.value)} />
-            <select onChange={e => setUnit(e.target.value)} value={unit}>
+            <br></br>
+            Unit: <select onChange={e => setUnit(e.target.value)} value={unit}>
+                 <option value = "lb/kg">lb/kg</option>
                 <option value = "lbs">lbs</option>
                 <option value = "kgs">kgs</option>
             </select>
-
-            <input
+            <br></br>
+            <br></br>
+            Date: <input
                 type="text"
                 placeholder="Enter date here"
                 value={date}
