@@ -31,7 +31,7 @@ GET http://localhost:3000/workouts HTTP/1.1
 ### Edit Squat.
 ### Update the ID.
 ### Status code 200.
-PUT http://localhost:3000/workouts/623560a7f17c13db474c9cd7 HTTP/1.1
+PUT http://localhost:3000/workouts/624a0ef6155d0ea1ed569b6a HTTP/1.1
 content-type: application/json
 
 {
@@ -49,7 +49,7 @@ GET http://localhost:3000/workouts HTTP/1.1
 ### Delete Squat.
 ### Update the ID.
 ### Status code 204.
-DELETE http://localhost:3000/workouts/623560a7f17c13db474c9cd7 HTTP/1.1
+DELETE http://localhost:3000/workouts/624a0ef6155d0ea1ed569b6a HTTP/1.1
 
 ### Verify that Squat has been deleted.
 ### Status code 200.
